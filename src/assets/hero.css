@@ -1,0 +1,113 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.hero-img{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.hero-divisor{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.row{
+  display: flex;
+}
+
+.d-relative{
+  position: relative;
+}
+
+.date{
+  font-size: 1.4rem;
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  width: auto;
+  line-height: 25px;
+  color: #ac8c61;
+  padding: 1rem 30px 1rem;
+  margin-bottom: 50px;
+  margin-top: 2rem;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to right, #fffffa,#ac8c61 , #fffffa);
+}
+
+.names-box{
+  margin-top: 0rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(https://fixdate.io/modelo-invitacion/105/img/ampersand.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.names-box > h1{
+  font-size: 2rem;
+  font-weight: 400;
+  color: #606060;
+}
+
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.d-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-center{
+  align-items: center;
+}
+
+.hero-p{
+  margin-top: 2rem;
+}
+
+.hero-p > p{
+  font-style: italic;
+  margin:0;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: #606060;
+}
+
+.hero-p > img{
+  width: 2rem;
+  margin: 2rem 0rem;
+}
+
+
+.counter{
+  width: 80vw;
+}
+
+
+.mt-2{
+  margin-top: 2rem;
+}
+
+.clock-title{
+      position: absolute;
+    margin-top: 4rem;
+    font-size: 1.5rem !important;
+    font-style: italic;
+    color: #606060;
+}
+
+
+.clock-container{
+  margin-top: 8rem;
+  position: absolute;
+}
