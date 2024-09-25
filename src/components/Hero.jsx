@@ -32,7 +32,61 @@ const Hero = () => {
         <img src="https://fixdate.io/modelo-invitacion/105/img/contador.webp" className='counter' alt="" />
         <h2 className="clock-title">Falta</h2>
         <Clock />
+        <br />
       </div>
+      <div className="d-flex-column flex-center anillos-container">
+        <div className="anillos">
+        </div>
+      </div>
+      <div className="d-flex-column flex-center">
+        <div className="ceremony">
+          Ceremonia
+        </div>
+      </div>
+      <br />
+      <div className="d-flex-column flex-center event-information">
+        <h2>Día</h2>
+        <h3>Sábado 15 de Mayo - 17hrs</h3>
+        <button className='btn-information'>Agendar</button>
+        <br />
+        <h2>Lugar</h2>
+        <h3>Apartamentos San Niolás</h3>
+        <button className='btn-information'>Confimar Asistencia</button>
+        <br />
+        <h2>Dirección</h2>
+        <h3>Sábado 15 de Mayo - 17hrs</h3>
+        <button className='btn-information'>¿Cómo llegar?</button>
+      </div>
+      <div className="d-flex-column flex-center anillos-container mt-2">
+        <div className="anillos">
+        </div>
+      </div>
+      <div className="d-flex-column flex-center">
+        <div className="ceremony">
+          Fiesta
+        </div>
+      </div>
+      <div className="d-flex-column flex-center event-information">
+        <h2>Día</h2>
+        <h3>Sábado 15 de Mayo - 17hrs</h3>
+        <button className='btn-information'>Agendar</button>
+        <br />
+        <h2>Lugar</h2>
+        <h3>Apartamentos San Niolás</h3>
+        <button className='btn-information'>Confimar Asistencia</button>
+        <br />
+        <h2>Dirección</h2>
+        <h3>Sábado 15 de Mayo - 17hrs</h3>
+        <button className='btn-information'>¿Cómo llegar?</button>
+      </div>
+
+      <div className="d-flex-column flex-center mt-2">
+        <img src="https://fixdate.io/modelo-invitacion/105/img/curva01.svg" className='' alt="" />
+      </div>
+
+      <h3 className='slider-title'>Retratos de nuestro amor</h3>
+      <p className='slider-p'>Un minuto, un segundo, un instante que queda en la eternidad</p>
+      <br />
     </div>
   );
 };

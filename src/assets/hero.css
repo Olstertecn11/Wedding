@@ -111,3 +111,125 @@ body{
   margin-top: 8rem;
   position: absolute;
 }
+
+.anillos{
+  width: 175px;
+  height: 175px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.40);
+  -moz-box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.40);
+  box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.40);
+}
+
+.anillos-container{
+  background: url(https://fixdate.io/modelo-invitacion/105/img/lineas01.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.ceremony{
+    color: #FFF;
+    font-size: 45px;
+    display: inline-block;
+    position: relative;
+    min-width: 60%;
+    padding: 5px 0;
+    background-color: #ac8c61;
+    padding: 8px 8px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.ceremony::before{
+  background-image: url(https://fixdate.io/modelo-invitacion/105/img/img_cinta01.svg);
+    position: absolute;
+    content: '';
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%;
+    width: 16px;
+    left: -15px;
+    top: 0;
+}
+	
+
+.ceremony::after{
+  background-image: url(https://fixdate.io/modelo-invitacion/105/img/img_cinta02.svg);
+  position: absolute;
+  content: '';
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 100%;
+  width: 16px;
+  right: -15px;
+  top: 0;
+}
+
+
+
+.event-information > h2{
+  color: #606060;
+}
+
+.event-information >  h3{
+  font-weight: 300;
+  margin-top: 0;
+  padding-top: 0;
+  color: #676767;
+}
+
+.btn-information{
+  display: inline-block;
+  width: 50%;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  /* padding: 10px 30px; */
+  text-wrap: nowrap;
+  text-align: center;
+  border-radius: 50px;
+  border-color: transparent;
+  background: #ac8c61;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 100;
+  font-style: italic;
+}
+
+
+.slider-title{
+  text-transform: capitalize;
+  color: #8e7151;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.slider-p{
+  color: #676767;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
